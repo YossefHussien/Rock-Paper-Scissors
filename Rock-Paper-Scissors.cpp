@@ -103,7 +103,7 @@ void ShowRoundResult(enGameItem UserChoice, enGameItem ComputerChoice, enGameSta
 	case enGameStatus::ComputerWin: system("color 4f"); cout << "\a"; break;
 	case enGameStatus::Draw:        system("color 6f"); break;
 	}
-
+	
 	cout << "Player Choice : " << GameItemToString(UserChoice) << endl;
 	cout << "Computer Choice : " << GameItemToString(ComputerChoice) << endl;
 	cout << "Round Winner : " << GameStatusToString(Result) << endl;
@@ -163,7 +163,7 @@ void StartGame()
 		system("color 0f");  
 		StartRound();
 
-		cout << "\nDo you want to play again? [1]: Yes, [0]: No" << endl;
+		cout << "\nDo you want to play again? [1]: Yes,  [0]: No" << endl;
 		cin >> PlayAgain;
 	} while (PlayAgain);
 
