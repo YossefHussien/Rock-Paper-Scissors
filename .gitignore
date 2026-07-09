@@ -1,0 +1,6 @@
+.vs
+*vcxproj
+*.user
+Rock-Pap.b4a66a97/
+x64/
+*.filters
